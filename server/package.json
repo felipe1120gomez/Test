@@ -1,0 +1,25 @@
+{
+  "name": "bertedeco",
+  "version": "1.0.0",
+  "description": "proyecto grupo 3",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon app.js",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipe1120gomez/Test.git"
+  },
+  "author": "grupo 3",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felipe1120gomez/Test/issues"
+  },
+  "homepage": "https://github.com/felipe1120gomez/Test#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
+  }
+}
