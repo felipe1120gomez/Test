@@ -20,9 +20,9 @@ app.get('/product', function(req, res) {
 
 //pagina carrito
 //usar localhost:3030/cart
-app.get('/cart', function(req, res) {
+/* app.get('/cart', function(req, res) {
     res.sendFile(path.resolve(__dirname, './views/productCart.html'))
-})
+}) */
 
 //pagina registro usuario
 //usar localhost:3030/register
