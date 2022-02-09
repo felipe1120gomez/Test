@@ -250,6 +250,7 @@ a {
   padding: 1px 1px;
   margin-bottom: 1px;
   border: 1px solid;
+  border-radius: 0.25rem;
   font-size: 12px;
   text-transform: none;
 }
