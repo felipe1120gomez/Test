@@ -4,6 +4,7 @@ const path = require('path')
 let productsController = require('../controllers/productsControllers.js')
 let router = express.Router()
 
-router.get('/detail', productsController.detail)
+/* productid es el nombre del archivo html que es un detalle de producto */
+router.get('/detail/:productid?', productsController.detail)
 
 module.exports = router
