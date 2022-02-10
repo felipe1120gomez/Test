@@ -1,5 +1,4 @@
 const express = require('express')
-const path = require('path')
 
 let usersController = require('../controllers/usersControllers.js')
 let router = express.Router()

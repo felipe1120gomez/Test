@@ -7,6 +7,10 @@ let usersRouter = require('./routes/users.js')
 
 const app = express()
 
+//view engine setup
+app.set('views', path.join(__dirname, 'views'))
+app.set('view engine', 'ejs')
+
 //npm run serve
 app.listen(process.env.PORT || 3030, () => console.log('Servidor corriendo'))
 
@@ -29,4 +33,4 @@ app.use('/products', productsRouter) /* LLEVA EL NOMBRE DE LA CARPETA */
 app.use('/users', usersRouter) /* LLEVA EL NOMBRE DE LA CARPETA */
 
 app.use(express.static(path.join(__dirname, '../public'))) /* IMPORTANTE LOS DOS PUNTOS */
-app.use(express.static(path.join(__dirname, './views')))
+/* app.use(express.static(path.join(__dirname, './views'))) */
