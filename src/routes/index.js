@@ -5,4 +5,6 @@ let router = express.Router()
 
 router.get('/', indexController.home)
 
+router.get('/home', indexController.home)
+
 module.exports = router
